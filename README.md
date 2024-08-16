@@ -15,6 +15,10 @@
   - **Delete**: Remove tasks from the list.
 - **Task Count**: Displays the number of remaining tasks.
 
+## Live Demo
+
+The project is live at [GitHub Pages](https://abhijeetbhaskar.github.io/Todo-List/) and [CodeSandBox](https://62wz9p.csb.app/).
+
 ## Project Structure
 
 The main components of the application include:
