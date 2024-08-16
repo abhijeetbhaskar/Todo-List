@@ -4,11 +4,13 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
+  "homepage": "https://abhijeetbhaskar.github.io/Todo-List",
   "dependencies": {
+    "gh-pages": "^6.1.1",
+    "nanoid": "5.0.7",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.0",
-    "nanoid": "5.0.7"
+    "react-scripts": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "18.2.38",
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
